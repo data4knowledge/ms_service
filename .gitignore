@@ -169,3 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Mac OS
+.DS_Store
+
+# Environment Files
+.development_env
+.production_env
+.test_env
