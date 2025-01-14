@@ -9,14 +9,14 @@ with open("src/d4k_ms_service/__info__.py") as fp:
     exec(fp.read(), version)
 
 setuptools.setup(
-    name="ms-service",
+    name="d4k-ms-service",
     version=version["__package_version__"],
     author="D Iberson-Hurst",
     author_email="",
     description="A python package containing classes for logging errors",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    install_requires=[],
+    install_requires=['pydantic', 'httpx', 'markdown', 'neo4j', 'd4k-ms-base'],
     packages=setuptools.find_packages(where="src"),
     package_dir={"": "src"},
     python_requires=">=3.10",

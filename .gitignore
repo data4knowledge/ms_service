@@ -173,6 +173,9 @@ cython_debug/
 # Mac OS
 .DS_Store
 
+# Useful files
+setup_env.sh
+
 # Environment Files
 .development_env
 .production_env
