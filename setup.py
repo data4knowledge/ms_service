@@ -16,7 +16,7 @@ setuptools.setup(
     description="A python package containing classes for logging errors",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    install_requires=['pydantic', 'httpx', 'markdown', 'neo4j', 'd4k-ms-base'],
+    install_requires=['pydantic', 'httpx', 'markdown', 'neo4j', 'd4k-ms-base', 'fastapi'],
     packages=setuptools.find_packages(where="src"),
     package_dir={"": "src"},
     python_requires=">=3.10",
